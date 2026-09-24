@@ -1,10 +1,14 @@
 
+Control your GoPro Hero 7 with nRF52840
 
 Arduino IDE port of [embeddedclub/bluetooth-keychain-remote](https://github.com/embeddedclub/bluetooth-keychain-remote)
 (originally Infineon PSoC6 + WICED BT stack) using the **Adafruit nRF52
 Arduino core** and its bundled **Bluefruit52Lib**, which is the standard
 way to build nRF52840 BLE central-role apps from the Arduino IDE.
 
+*Tested only on my GoPro Hero 7
+
+*Use it at your own risk, I'm not responsible if you brick your GoPro 😁
 
 Pinout
 
@@ -42,3 +46,4 @@ Building / uploading
 Just click **Upload** in Arduino IDE with the correct board and port
 selected. Open **Tools → Serial Monitor** at **115200 baud** to see scan/
 connect/discovery/button logs.
+
